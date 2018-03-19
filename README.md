@@ -8,9 +8,6 @@ dangerrulez provide blocklist of Ip used SSH bruteforce attacks via firewall
 This feed includes
 Ip used in bruteforce attacks
 
-#### Contact Information
-Daniel Geržo (danger@rulez.sk)
-
 ### Using the dangerrulez feed API
  The dangerrulez feed API is found on github at
 
