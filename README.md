@@ -8,12 +8,21 @@ dangerrulez provide blocklist of Ip used SSH bruteforce attacks via firewall
 This feed includes
 Ip used in bruteforce attacks
 
-### Using the dangerrulez feed API
+### PRE-REQUISITES to use dangerrulez feed API and DNIF  
+Outbound access required to request dangerrulez feed API
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| danger.rulez.sk | 443 | 
+
+
+### Using the dangerrulez feed API and DNIF
  The dangerrulez feed API is found on github at
 
 https://github.com/dnif/enrich-dangerrulez
 
-#### Getting started with dangerrulez feed API
+#### Getting started with dangerrulez feed API and DNIF
 
 1. #####    Login to your AD, A10 containers  
    ACCESS DNIF CONTAINER VIA SSH : [Click To Know How](https://dnif.it/docs/guides/tutorials/access-dnif-container-via-ssh.html)
