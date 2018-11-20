@@ -14,7 +14,7 @@ Outbound access required to request dangerrulez feed API
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
 | TCP | AD,A10 | Any | Egress	| github.com | 443 |
-| TCP | AD,A10 | Any | Egress	| danger.rulez.sk  | 443 | 
+| TCP | AD,A10 | Any | Egress	| danger.rulez.sk  | 80 | 
 
 
 ### Using the dangerrulez feed API and DNIF
